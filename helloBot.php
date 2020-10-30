@@ -20,29 +20,13 @@ require_once('functions.php');
 ####
 # I. Build the POST array to send to Corrade.
 
-// Original command from instantMessage/installMessage.php
-
-// $params = array(
-//     'command' => 'notify',
-//     'group' => $GROUP,
-//     'password' => $PASSWORD,
-//     'type' => 'message',
-//     'action' => 'set', # Set will discard other URLs
-//     'URL' => $STORE
-// );
-
 $params = array(
     'command' => 'tell',
     'group' => $GROUP,
     'password' => $PASSWORD,
-    'message' => 'HELLO WORLD! I AM A BOT!',
-    'entity' => 'avatar',
-    // If you want to send the message via the UUID, leave this alone
-    'agent' => $AGENTUUID
-    // If you want to send the message via your Avatar's first and last name,
-    // comment out the line above and uncomment the next two lines.
-    // 'firstname' => $AVATARFIRSTNAME,
-    // 'lastname' => $AVATARLASTNAME
+    'message' => 'Hello, World! I am a bot!',
+    'entity' => 'local',
+    'type' => 'Normal'
 );
 
 ####
@@ -81,7 +65,7 @@ $status = urldecode(
 # IV. Check the status of the command.
 switch($status) {
     case "True":
-        echo 'Instant message sent!';
+        echo 'Message sent!';
         break;
     default:
         echo 'Corrade returned the error: '.urldecode(
