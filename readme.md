@@ -26,5 +26,6 @@ So, I've taken one of their templates, and stripped it down to it's barebones.
 
 ## Credit
 
-This code is 99.9856% from Wizardry and Steamworks. (That calculation isn't exact. Sue me! Actually, please don't. I have very few Lindens.)
+This code is 99.9856% from Wizardry and Steamworks. 
+(That calculation isn't exact. Sue me! Actually, please don't. I have very few Lindens.)
 http://grimore.org/secondlife/scripted_agents/corrade
