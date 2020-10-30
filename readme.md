@@ -1,6 +1,6 @@
 # helloBot!
 
-This is an absolutely basic HTTP template for a Corrade bot.
+This is an absolutely basic HTTP template for a Corrade bot for Second Life. 
 
 If you're not familiar with Corrade bots, check out https://corrade.grimore.org/
 
