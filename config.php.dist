@@ -6,11 +6,3 @@ $GROUP = 'My Group';
 $PASSWORD = 'mypassword';
 # Set this to Corrade's HTTP Server URL.
 $URL = 'http://corrade.internal.sever:8080';
-
-# Set this to your avatar's UUID
-# This is the account that will receive the instant message from your bot. 
-$AGENTUUID = 'd726edfb-a1c4-4499-8c01-2746227b55e5';
-# Alternately, you can set this to your avatar's first and last name.
-# You'll need to make changes to helloBot.php
-$AVATARFIRSTNAME = 'Philip';
-$AVATARLASTNAME = 'Linden';
