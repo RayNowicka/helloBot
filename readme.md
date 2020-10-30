@@ -4,11 +4,11 @@ This is an absolutely basic HTTP template for a Corrade bot.
 
 If you're not familiar with Corrade bots, check out https://corrade.grimore.org/
 
-There is plenty of great documentation on that site, but what it is lacking is a simple basic script to get people started.
+There is plenty of great documentation on that site, but what it is lacking is a simple, basic script to get people started. You know — a "Hello world!" script!
 
-I've taken one of their templates, and stripped it down to it's barebones.
+So, I've taken one of their templates, and stripped it down to it's barebones.
 
-## Requirements ]:-
+## Requirements
 
   * A modern browser: Chome, Opera, Firefox, Safari...
   * A webserver.
@@ -26,5 +26,5 @@ I've taken one of their templates, and stripped it down to it's barebones.
 
 ## Credit
 
-This code is 99.9856% from Wizardry and Steamworks. (That calculation isn't exact.)
+This code is 99.9856% from Wizardry and Steamworks. (That calculation isn't exact. Sue me! Actually, please don't. I have very few Lindens.)
 http://grimore.org/secondlife/scripted_agents/corrade
